@@ -1,0 +1,149 @@
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: white;
+    padding-right: 15px;
+    float: left;
+    position: fixed;
+
+}
+
+.body {
+    margin: 0%;
+}
+.navplatform {
+    visibility: hidden;
+    width: 100%;
+    height: 100px;
+
+}
+
+.navbar::after {
+    content:" ";
+    clear: both;
+    display: block;
+}
+
+.list_style {
+    display: inline;
+    margin-right: 10px;
+    padding-right: 8px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.link_container {
+    float: right;
+    padding-top: 25px;
+}
+
+.banner_style {
+    display: inline;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.logo {
+    color: white;
+    text-shadow: 2px 3px black;
+    font-size: 3vw;
+    margin-left: 10px;
+    float: left;
+    font-family: sans-serif;
+    display: inline;
+   
+
+}
+
+.banner {
+    box-sizing: border-box;
+    border: 7px solid black;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;  
+    color:black;
+    background-color: yellow;
+    position: fixed; 
+    height: 100px fit-content;
+}
+
+.bannerplatform {
+    width: 100%;
+    height: 125px;
+}
+
+.joanna {
+    float: left;
+    width: 100%; 
+    box-sizing: border-box;   
+    border: 5px solid black;
+    background-color:black;
+
+}
+
+a:hover {
+    background-color:white;
+    color: gray;
+    opacity: 0.8;
+}
+
+a:visited{
+color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article {
+    float: left;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 0px 3px yellow;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 31%;
+    margin-left: 10px;
+    text-overflow: clip;
+}
+
+.article2 {
+    margin-left: 20px;
+    float: left;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 0px 3px yellow;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 31%;
+    text-overflow: ellipsis;
+    
+}
+.article3 {
+    margin-left: 20px;
+    float: left;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 0px 3px yellow;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 31%;
+    text-overflow: ellipsis;
+    
+}
+
+.articleplatform {
+    width: 33%;
+}
+h2 {
+    padding-left: 7px;
+}
+
+p {
+    font-weight: lighter;
+    font-size: smaller;
+    padding-left: 5px;
+    
+}
+
